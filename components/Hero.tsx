@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section
       id="inicio"
-      className="relative min-h-[760px] overflow-hidden bg-[#16110f] lg:min-h-screen"
+      className="relative min-h-[650px] overflow-hidden bg-[#16110f] md:min-h-[760px] lg:min-h-screen"
     >
       <Image
         src="/images/tamble.png"
@@ -14,16 +14,16 @@ export default function Hero() {
         priority
         sizes="100vw"
         loading="eager"
-        className="object-cover object-[58%_28%] sm:object-[64%_30%] lg:object-[66%_32%]"
+        className="object-cover object-[58%_28%] md:object-[64%_30%] lg:object-[66%_32%]"
       />
 
       <div className="absolute inset-0 bg-gradient-to-r from-[#120d0b]/95 via-[#120d0b]/72 to-[#120d0b]/15" />
 
       <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-black/15" />
 
-      <div className="relative z-10 mx-auto flex min-h-[760px] max-w-7xl items-center px-6 pb-16 pt-32 lg:min-h-screen lg:px-10">
+      <div className="relative z-10 mx-auto flex min-h-[650px] max-w-7xl items-center px-5 pb-10 pt-28 md:min-h-[760px] md:px-6 md:pb-16 md:pt-32 lg:min-h-screen lg:px-10">
         <div className="max-w-2xl">
-          <div className="mb-7 flex items-center gap-4">
+          <div className="mb-4 flex items-center gap-3 md:mb-7 md:gap-4">
             <span className="h-px w-10 bg-[#d98da3]" />
 
             <p className="text-xs font-medium uppercase tracking-[0.25em] text-[#e9b5c3]">
@@ -31,7 +31,7 @@ export default function Hero() {
             </p>
           </div>
 
-          <h1 className="max-w-xl font-serif text-5xl leading-[1.02] text-white sm:text-6xl lg:text-[76px]">
+          <h1 className="max-w-xl font-serif text-[40px] leading-[1.02] text-white md:text-6xl lg:text-[76px]">
             Realçamos
             <br />
             a <span className="italic text-[#d98da3]">beleza</span> que
@@ -39,28 +39,28 @@ export default function Hero() {
             já existe em si.
           </h1>
 
-          <p className="mt-7 max-w-lg text-base leading-7 text-white/75 sm:text-lg">
+          <p className="mt-4 max-w-lg text-sm leading-6 text-white/75 md:mt-7 md:text-lg md:leading-7">
             Especialistas em Balayage, Loiros e Bridal Hair, com um serviço
             pensado para valorizar a sua beleza e o seu estilo.
           </p>
 
-          <div className="mt-9 flex flex-col gap-4 sm:flex-row">
+          <div className="mt-6 grid grid-cols-2 gap-3 md:mt-9 md:flex md:gap-4">
             <a
              href="#marcacao"
-              className="inline-flex items-center justify-center rounded-md bg-[#c67b91] px-7 py-4 text-xs font-semibold uppercase tracking-[0.14em] text-white transition hover:bg-[#b66f84]"
+              className="inline-flex min-h-11 items-center justify-center rounded-md bg-[#c67b91] px-3 py-3 text-[10px] font-semibold uppercase tracking-[0.1em] text-white transition hover:bg-[#b66f84] md:px-7 md:py-4 md:text-xs md:tracking-[0.14em]"
             >
               Marcar horário
             </a>
 
             <Link
               href="#servicos"
-              className="inline-flex items-center justify-center rounded-md border border-white/45 px-7 py-4 text-xs font-semibold uppercase tracking-[0.14em] text-white transition hover:bg-white hover:text-[#18110e]"
+              className="inline-flex min-h-11 items-center justify-center rounded-md border border-white/45 px-3 py-3 text-[10px] font-semibold uppercase tracking-[0.1em] text-white transition hover:bg-white hover:text-[#18110e] md:px-7 md:py-4 md:text-xs md:tracking-[0.14em]"
             >
               Conhecer serviços
             </Link>
           </div>
 
-          <div className="mt-12 flex items-center gap-3 text-sm text-white/75">
+          <div className="mt-7 flex items-center gap-2 text-xs text-white/75 md:mt-12 md:gap-3 md:text-sm">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="18"

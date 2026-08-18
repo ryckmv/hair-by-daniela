@@ -35,14 +35,14 @@ const works = [
 
 export default function Works() {
   return (
-    <section id="trabalhos" className="bg-[#fffdfb] px-6 py-20 lg:px-10 lg:py-28">
+    <section id="trabalhos" className="bg-[#fffdfb] px-4 py-12 md:px-6 md:py-20 lg:px-10 lg:py-28">
       <div className="mx-auto max-w-7xl">
-        <div className="mb-12 flex flex-col justify-between gap-5 md:flex-row md:items-end">
+        <div className="mb-7 flex flex-col justify-between gap-3 md:mb-12 md:flex-row md:items-end md:gap-5">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[#bd7488]">
               Portefólio
             </p>
-            <h2 className="mt-4 font-serif text-4xl text-[#2a201c] sm:text-5xl">
+            <h2 className="mt-3 font-serif text-3xl text-[#2a201c] md:mt-4 md:text-5xl">
               Trabalhos com <span className="italic text-[#c67b91]">assinatura</span>
             </h2>
           </div>
@@ -51,7 +51,7 @@ export default function Works() {
           </p>
         </div>
 
-        <div className="grid auto-rows-[230px] grid-cols-2 gap-2.5 md:grid-cols-12 md:auto-rows-[250px] md:gap-3">
+        <div className="grid auto-rows-[165px] grid-cols-2 gap-2 md:grid-cols-12 md:auto-rows-[250px] md:gap-3">
           {works.map((work, index) => (
             <figure
               key={work.src}

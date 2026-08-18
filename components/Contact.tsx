@@ -9,11 +9,11 @@ export default function Contact() {
     <section
       id="contacto"
       aria-labelledby="contact-title"
-      className="bg-[fffdfb] px-6 py-12 lg:px-10 lg:py-14"
+      className="bg-[#fffdfb] px-4 py-8 md:px-6 md:py-12 lg:px-10 lg:py-14"
     >
       <div className="mx-auto max-w-7xl overflow-hidden border border-[#dfd0ca] bg-[#fffdfb] shadow-[0_16px_45px_rgba(62,42,35,0.06)]">
         <div className="grid lg:grid-cols-[1.15fr_1fr_1fr_1fr]">
-          <div className="flex items-center gap-5 border-b border-[#e7dbd6] p-6 sm:p-8 lg:border-b-0 lg:border-r">
+          <div className="flex items-center gap-4 border-b border-[#e7dbd6] p-4 md:gap-5 md:p-8 lg:border-b-0 lg:border-r">
             <div className="flex h-16 w-16 shrink-0 flex-col items-center justify-center rounded-full border border-[#c67b91] text-[#a85f74]">
               <span className="text-[9px] uppercase tracking-[0.22em]">Hair</span>
               <span className="mt-0.5 h-px w-6 bg-[#c67b91]" />
@@ -38,14 +38,14 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="border-b border-[#e7dbd6] p-6 sm:p-8 lg:border-b-0 lg:border-r">
+          <div className="border-b border-[#e7dbd6] p-4 md:p-8 lg:border-b-0 lg:border-r">
             <div className="flex items-center gap-3 text-[#b96f84]">
               <MapPin aria-hidden="true" size={18} strokeWidth={1.6} />
               <p className="text-[10px] font-semibold uppercase tracking-[0.22em]">
                 Localização
               </p>
             </div>
-            <address className="mt-4 text-sm not-italic leading-6 text-[#5f514b]">
+            <address className="mt-3 text-sm not-italic leading-6 text-[#5f514b] md:mt-4">
               Rua da Alegria nº 304
               <br />
               Vila do Conde, Portugal
@@ -54,20 +54,20 @@ export default function Contact() {
               href={mapsUrl}
               target="_blank"
               rel="noreferrer"
-              className="mt-4 inline-flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.14em] text-[#b96f84] transition hover:text-[#8f4f62]"
+              className="mt-2 inline-flex min-h-10 items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.14em] text-[#b96f84] transition hover:text-[#8f4f62] md:mt-4 md:min-h-0"
             >
               Ver no mapa <ArrowUpRight aria-hidden="true" size={14} />
             </a>
           </div>
 
-          <div className="border-b border-[#e7dbd6] p-6 sm:p-8 lg:border-b-0 lg:border-r">
+          <div className="border-b border-[#e7dbd6] p-4 md:p-8 lg:border-b-0 lg:border-r">
             <div className="flex items-center gap-3 text-[#b96f84]">
               <AtSign aria-hidden="true" size={18} strokeWidth={1.6} />
               <p className="text-[10px] font-semibold uppercase tracking-[0.22em]">
                 Instagram
               </p>
             </div>
-            <p className="mt-4 text-sm leading-6 text-[#5f514b]">
+            <p className="mt-3 text-sm leading-6 text-[#5f514b] md:mt-4">
             Acompanhe as nossas transformações, novidades e trabalhos pelo Instagram.
         </p>
 
@@ -76,27 +76,27 @@ export default function Contact() {
               href={instagramUrl}
              
               rel="noreferrer"
-              className="mt-4 inline-flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.14em] text-[#b96f84] transition hover:text-[#8f4f62]"
+              className="mt-2 inline-flex min-h-10 items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.14em] text-[#b96f84] transition hover:text-[#8f4f62] md:mt-4 md:min-h-0"
             >
               Instagram <ArrowUpRight aria-hidden="true" size={14} />
             </a>
           </div>
 
-          <div className="p-6 sm:p-8">
+          <div className="p-4 md:p-8">
             <div className="flex items-center gap-3 text-[#b96f84]">
               <Clock3 aria-hidden="true" size={18} strokeWidth={1.6} />
               <p className="text-[10px] font-semibold uppercase tracking-[0.22em]">
                 Horário
               </p>
             </div>
-            <p className="mt-4 text-sm leading-6 text-[#5f514b]">
+            <p className="mt-3 text-sm leading-6 text-[#5f514b] md:mt-4">
               Fale conosco e prepare sua próxima marcação.
             </p>
             <a
                 href="#marcacao"
               target="_blank"
               rel="noreferrer"
-              className="mt-4 inline-flex rounded-md bg-[#c67b91] px-5 py-3 text-[10px] font-semibold uppercase tracking-[0.14em] text-white transition hover:bg-[#b66f84]"
+              className="mt-3 inline-flex min-h-11 items-center rounded-md bg-[#c67b91] px-5 py-3 text-[10px] font-semibold uppercase tracking-[0.14em] text-white transition hover:bg-[#b66f84] md:mt-4 md:min-h-0"
             >
               Marcar horário
             </a>
