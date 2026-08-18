@@ -29,12 +29,12 @@ export default function Header() {
             <Link className="transition hover:text-white" href="#contacto">Contacto</Link>
           </nav>
 
-          <a
-            href="#contacto"
-            className="hidden rounded-md bg-[#c67b91] px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.12em] text-white transition hover:bg-[#b66f84] sm:inline-flex"
-          >
-            Marcar horário
-          </a>
+         <a
+  href="#marcacao"
+  className="hidden rounded-md bg-[#c67b91] px-6 py-3 text-xs font-semibold uppercase tracking-[0.12em] text-white transition hover:bg-[#b66f84] md:inline-flex"
+>
+  Marcar horário
+</a>
         </div>
 
         <nav aria-label="Navegação principal" className="mt-4 flex gap-5 overflow-x-auto border-t border-white/15 pt-3 text-[10px] font-semibold uppercase tracking-[0.12em] text-white/80 lg:hidden">

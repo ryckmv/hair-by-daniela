@@ -64,12 +64,14 @@ export default function Contact() {
             <div className="flex items-center gap-3 text-[#b96f84]">
               <AtSign aria-hidden="true" size={18} strokeWidth={1.6} />
               <p className="text-[10px] font-semibold uppercase tracking-[0.22em]">
-                Contacto
+                Instagram
               </p>
             </div>
             <p className="mt-4 text-sm leading-6 text-[#5f514b]">
-              Fale connosco e prepare a sua próxima marcação.
-            </p>
+            Acompanhe as nossas transformações, novidades e trabalhos pelo Instagram.
+        </p>
+
+            
             <a
               href={instagramUrl}
               target="_blank"
@@ -88,10 +90,10 @@ export default function Contact() {
               </p>
             </div>
             <p className="mt-4 text-sm leading-6 text-[#5f514b]">
-              Consulte a disponibilidade através de mensagem no Instagram.
+              Fale conosco e prepare sua próxima marcação.
             </p>
             <a
-              href={instagramUrl}
+              
               target="_blank"
               rel="noreferrer"
               className="mt-4 inline-flex rounded-md bg-[#c67b91] px-5 py-3 text-[10px] font-semibold uppercase tracking-[0.14em] text-white transition hover:bg-[#b66f84]"

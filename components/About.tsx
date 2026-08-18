@@ -9,7 +9,7 @@ export default function About() {
         <div className="relative mx-auto w-full max-w-xl">
           <div className="relative aspect-[4/5] overflow-hidden bg-[#e9ddd8]">
             <Image
-              src="/images/penteado-2.jpg"
+              src="/images/daniela.jpg"
               alt="Detalhe de um penteado realizado pela Hair by Daniela Santos"
               fill
               sizes="(max-width: 1024px) 100vw, 45vw"

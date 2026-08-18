@@ -45,7 +45,7 @@ export default function Hero() {
 
           <div className="mt-9 flex flex-col gap-4 sm:flex-row">
             <a
-              href="#contacto"
+             href="#marcacao"
               className="inline-flex items-center justify-center rounded-md bg-[#c67b91] px-7 py-4 text-xs font-semibold uppercase tracking-[0.14em] text-white transition hover:bg-[#b66f84]"
             >
               Marcar horário

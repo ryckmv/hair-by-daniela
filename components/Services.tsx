@@ -13,7 +13,7 @@ const services = [
     title: "Balayage",
     description:
       "Técnicas personalizadas para criar iluminação natural e sofisticada.",
-    image: "/images/Balayage1.jpg",
+    image: "/images/Balayage.jpg",
     position: "center 18%",
     icon: Brush,
   },
