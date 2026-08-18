@@ -20,7 +20,7 @@ export default function Booking() {
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
-    const phone = "351934612089";
+    const phone = "5573982336518";
 
 const message = `Olá, Daniela! 👋
 
@@ -43,7 +43,7 @@ Obrigada!`;
   return (
     <section
       id="marcacao"
-      className="bg-[#f8f3f0] px-6 py-16 lg:px-10 lg:py-20"
+      className="bg-[#fffdfb] px-6 py-16 lg:px-10 lg:py-20"
     >
       <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-center">
         <div>

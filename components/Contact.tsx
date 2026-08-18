@@ -9,7 +9,7 @@ export default function Contact() {
     <section
       id="contacto"
       aria-labelledby="contact-title"
-      className="bg-[#f3ece8] px-6 py-12 lg:px-10 lg:py-14"
+      className="bg-[fffdfb] px-6 py-12 lg:px-10 lg:py-14"
     >
       <div className="mx-auto max-w-7xl overflow-hidden border border-[#dfd0ca] bg-[#fffdfb] shadow-[0_16px_45px_rgba(62,42,35,0.06)]">
         <div className="grid lg:grid-cols-[1.15fr_1fr_1fr_1fr]">
@@ -74,7 +74,7 @@ export default function Contact() {
             
             <a
               href={instagramUrl}
-              target="_blank"
+             
               rel="noreferrer"
               className="mt-4 inline-flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.14em] text-[#b96f84] transition hover:text-[#8f4f62]"
             >
@@ -93,7 +93,7 @@ export default function Contact() {
               Fale conosco e prepare sua próxima marcação.
             </p>
             <a
-              
+                href="#marcacao"
               target="_blank"
               rel="noreferrer"
               className="mt-4 inline-flex rounded-md bg-[#c67b91] px-5 py-3 text-[10px] font-semibold uppercase tracking-[0.14em] text-white transition hover:bg-[#b66f84]"

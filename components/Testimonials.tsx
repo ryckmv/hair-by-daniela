@@ -28,7 +28,7 @@ const ratings = [
 
 export default function Testimonials() {
   return (
-    <section className="bg-[#fffaf7] px-6 py-14 lg:px-10 lg:py-16">
+    <section className="bg-[#f3ece8] px-6 py-14 lg:px-10 lg:py-16">
       <div className="mx-auto max-w-7xl">
         <div className="mb-10 text-center">
           <p className="text-[10px] font-semibold uppercase tracking-[0.28em] text-[#bd7488]">

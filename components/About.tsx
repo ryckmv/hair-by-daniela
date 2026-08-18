@@ -4,7 +4,7 @@ const specialties = ["Balayage", "Loiros", "Bridal Hair", "Formação contínua"
 
 export default function About() {
   return (
-    <section id="sobre" className="bg-[#f8f3f0] px-6 py-20 lg:px-10 lg:py-28">
+    <section id="sobre" className="bg-[#2a201c] px-6 py-20 lg:px-10 lg:py-28">
       <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[0.95fr_1.05fr] lg:gap-20">
         <div className="relative mx-auto w-full max-w-xl">
           <div className="relative aspect-[4/5] overflow-hidden bg-[#e9ddd8]">
@@ -16,7 +16,7 @@ export default function About() {
               className="object-cover object-center"
             />
           </div>
-          <div className="absolute -bottom-5 -right-3 bg-[#2a201c] px-6 py-5 text-white sm:-right-7 sm:px-8">
+          <div className="absolute -bottom-5 -right-3 border border-white/15 bg-[#181110] px-6 py-5 text-white sm:-right-7 sm:px-8">
             <p className="font-serif text-2xl italic">Técnica &amp; detalhe</p>
             <p className="mt-1 text-[10px] uppercase tracking-[0.22em] text-white/60">Em cada resultado</p>
           </div>
@@ -24,13 +24,13 @@ export default function About() {
 
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[#bd7488]">Sobre</p>
-          <h2 className="mt-4 max-w-xl font-serif text-4xl leading-tight text-[#2a201c] sm:text-5xl">
+          <h2 className="mt-4 max-w-xl font-serif text-4xl leading-tight text-white sm:text-5xl">
             Daniela Santos, beleza com <span className="italic text-[#c67b91]">intenção</span>
           </h2>
-          <p className="mt-6 max-w-xl text-base leading-7 text-[#6e625d]">
+          <p className="mt-6 max-w-xl text-base leading-7 text-[#c9beb8]">
             Daniela Santos trabalha cada cabelo de forma personalizada, procurando resultados elegantes, atuais e fiéis à identidade de cada cliente. O cuidado técnico e a atenção ao detalhe acompanham todas as etapas do serviço.
           </p>
-          <p className="mt-4 max-w-xl text-base leading-7 text-[#6e625d]">
+          <p className="mt-4 max-w-xl text-base leading-7 text-[#c9beb8]">
             Com especial atenção a balayage, loiros e bridal hair, mantém uma aposta constante em formação e aperfeiçoamento profissional.
           </p>
 

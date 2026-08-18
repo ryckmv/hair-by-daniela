@@ -13,6 +13,7 @@ export default function Hero() {
         fill
         priority
         sizes="100vw"
+        loading="eager"
         className="object-cover object-[58%_28%] sm:object-[64%_30%] lg:object-[66%_32%]"
       />
 
