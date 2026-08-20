@@ -5,7 +5,7 @@ const works = [
     src: "/images/foto-7.jpg",
     alt: "Penteado longo em tom vermelho com acessório delicado",
     className: "md:col-span-5 md:row-span-2",
-    position: "center",
+     position: "center 20%",
   },
   {
     src: "/images/foto-5.jpg",
@@ -13,14 +13,17 @@ const works = [
     className: "md:col-span-4",
     position: "center 30%",
   },
-  {
-    src: "/images/foto-4.jpg",
-    alt: "Cabelo ruivo acobreado com ondas e volume",
+    {
+    src: "/images/puxo-de-ondas-final.png",
+    alt: "Puxo de ondas com movimento e acabamento definido",
     className: "md:col-span-3",
-    position: "center 35%",
+    position: "center 55%",
+    contain: false,
+    
   },
+
   {
-    src: "/images/foto-1.jpg",
+    src: "/images/foto-1.png",
     alt: "Penteado semipreso com trança e ondas",
     className: "md:col-span-3",
     position: "center 28%",
@@ -28,9 +31,17 @@ const works = [
   {
     src: "/images/foto-12.jpg",
     alt: "Balayage com ondas e reflexos dourados",
-    className: "md:col-span-4",
+    className: "md:col-span-2",
     position: "center 30%",
   },
+    {
+    src: "/images/foto-4.jpg",
+    alt: "Cabelo ruivo acobreado com ondas e volume",
+    className: "md:col-span-2",
+    position: "center 50%",
+    contain: false,
+  },
+
 ];
 
 export default function Works() {
@@ -52,10 +63,10 @@ export default function Works() {
         </div>
 
         <div className="grid auto-rows-[165px] grid-cols-2 gap-2 md:grid-cols-12 md:auto-rows-[250px] md:gap-3">
-          {works.map((work, index) => (
+          {works.map((work) => (
             <figure
               key={work.src}
-              className={`group relative overflow-hidden bg-[#eadfda] ${work.className} ${index === 0 ? "col-span-2" : "col-span-1"}`}
+              className={`group relative overflow-hidden bg-[#eadfda] ${work.className}`}
             >
               <Image
                 src={work.src}
@@ -63,8 +74,12 @@ export default function Works() {
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 42vw"
                 style={{ objectPosition: work.position }}
-                className="object-cover transition duration-700 ease-out group-hover:scale-[1.025] group-hover:brightness-[0.94]"
-              />
+                className={`${
+              work.contain
+                ? "object-contain scale-[2.0] group-hover:scale-[2.28]"
+                : "object-cover group-hover:scale-[1.025]"
+            } transition duration-700 ease-out group-hover:brightness-[0.94]`}
+                          />
               <div className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/5" />
             </figure>
           ))}

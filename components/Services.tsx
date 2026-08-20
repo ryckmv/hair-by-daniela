@@ -6,6 +6,7 @@ import {
   Waves,
   Crown,
   Heart,
+  Wind,
 } from "lucide-react";
 
 const services = [
@@ -29,7 +30,7 @@ const services = [
     title: "Extensões",
     description:
       "Mais comprimento e volume com um resultado natural e personalizado.",
-    image: "/images/Extensões.jpg",
+    image: "/images/Extensões.png",
     position: "center 15%",
     icon: MoveVertical,
   },
@@ -57,6 +58,14 @@ const services = [
     position: "center 10%",
     icon: Heart,
   },
+  {
+    title: "Puxo de ondas",
+    description:
+      "Ondas definidas, com movimento, volume e um acabamento elegante.",
+    image: "/images/puxo-de-ondas-final.png",
+    position: "center 20%",
+    icon: Wind,
+  },
 ];
 
 export default function Services() {
@@ -82,7 +91,7 @@ export default function Services() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-2 gap-2.5 md:grid-cols-3 md:gap-4 xl:grid-cols-6">
+        <div className="grid grid-cols-2 gap-2.5 md:grid-cols-3 md:gap-4 xl:grid-cols-7">
           {services.map((service) => {
             const Icon = service.icon;
 
@@ -96,7 +105,7 @@ export default function Services() {
                     src={service.image}
                     alt={`${service.title} - Hair by Daniela Santos`}
                     fill
-                    sizes="(max-width: 767px) 50vw, (max-width: 1280px) 33vw, 16vw"
+                    sizes="(max-width: 767px) 50vw, (max-width: 1280px) 33vw, 14vw"
                     style={{
                       objectFit: "cover",
                       objectPosition: service.position,

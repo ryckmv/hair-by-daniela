@@ -5,6 +5,7 @@ import Bridal from "@/components/Bridal";
 import CallToAction from "@/components/CallToAction";
 import Works from "@/components/Works";
 import About from "@/components/About";
+import Aesthetics from "@/components/Aesthetics";
 import Booking from "@/components/Booking";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -19,6 +20,7 @@ export default function Home() {
       <Bridal />
       <CallToAction />
       <Works />
+      <Aesthetics />
       <About />
       <Booking />
        <Testimonials />

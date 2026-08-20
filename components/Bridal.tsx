@@ -34,33 +34,33 @@ export default function Bridal() {
         </div>
 
         <div className="grid grid-cols-3 gap-1.5 md:gap-2.5">
-          <div className="relative h-[195px] overflow-hidden rounded-sm sm:h-[240px] md:h-[460px] md:translate-y-6">
+          <div className="group relative h-[195px] overflow-hidden rounded-sm sm:h-[240px] md:h-[460px] md:translate-y-6">
             <Image
               src="/images/bridal-1.jpg"
               alt="Penteado de noiva Hair by Daniela Santos"
               fill
               sizes="(max-width: 767px) 33vw, 33vw"
-              className="object-cover object-top"
+              className="object-cover object-top transition duration-700 ease-out group-hover:scale-[1.025] group-hover:brightness-[0.97]"
             />
           </div>
 
-          <div className="relative h-[195px] overflow-hidden rounded-sm sm:h-[240px] md:h-[460px]">
+          <div className="group relative h-[195px] overflow-hidden rounded-sm sm:h-[240px] md:h-[460px]">
             <Image
               src="/images/bridal-2.jpg"
               alt="Bridal Hair Hair by Daniela Santos"
               fill
               sizes="(max-width: 767px) 33vw, 33vw"
-              className="object-cover object-top"
+              className="object-cover object-top transition duration-700 ease-out group-hover:scale-[1.025] group-hover:brightness-[0.97]"
             />
           </div>
 
-          <div className="relative h-[195px] overflow-hidden rounded-sm sm:h-[240px] md:h-[460px] md:translate-y-6">
+          <div className="group relative h-[195px] overflow-hidden rounded-sm sm:h-[240px] md:h-[460px] md:translate-y-6">
             <Image
               src="/images/bridal-3.jpg"
               alt="Penteado profissional de noiva"
               fill
               sizes="(max-width: 767px) 33vw, 33vw"
-              className="object-cover object-top"
+              className="object-cover object-top transition duration-700 ease-out group-hover:scale-[1.025] group-hover:brightness-[0.97]"
             />
           </div>
         </div>

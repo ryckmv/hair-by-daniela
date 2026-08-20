@@ -24,6 +24,7 @@ export default function Header() {
             <Link className="transition hover:text-white" href="#inicio">Início</Link>
             <Link className="transition hover:text-white" href="#sobre">Sobre</Link>
             <Link className="transition hover:text-white" href="#servicos">Serviços</Link>
+            <Link className="transition hover:text-white" href="#estetica">Estética</Link>
             <Link className="transition hover:text-white" href="#trabalhos">Trabalhos</Link>
             <Link className="transition hover:text-white" href="#noivas">Noivas</Link>
             <Link className="transition hover:text-white" href="#contacto">Contacto</Link>
@@ -37,12 +38,13 @@ export default function Header() {
 </a>
         </div>
 
-        <nav aria-label="Navegação principal" className="mt-2 flex items-center gap-3 overflow-x-auto border-t border-white/15 pt-1.5 text-[9px] font-semibold uppercase tracking-[0.1em] text-white/80 md:mt-4 md:gap-5 md:pt-3 md:text-[10px] md:tracking-[0.12em] lg:hidden">
-          <Link className="flex min-h-10 shrink-0 items-center md:min-h-0" href="#servicos">Serviços</Link>
-          <Link className="flex min-h-10 shrink-0 items-center md:min-h-0" href="#trabalhos">Trabalhos</Link>
-          <Link className="flex min-h-10 shrink-0 items-center md:min-h-0" href="#sobre">Sobre</Link>
-          <Link className="flex min-h-10 shrink-0 items-center md:min-h-0" href="#contacto">Contacto</Link>
-          <Link className="flex min-h-10 shrink-0 items-center rounded bg-[#c67b91] px-3 text-white md:hidden" href="#marcacao">Marcar horário</Link>
+        <nav aria-label="Navegação principal" className="mt-1.5 flex items-center gap-2.5 overflow-x-auto border-t border-white/15 pt-1 text-[8px] font-semibold uppercase tracking-[0.08em] text-white/80 md:mt-4 md:gap-5 md:pt-3 md:text-[10px] md:tracking-[0.12em] lg:hidden">
+          <Link className="flex min-h-8 shrink-0 items-center md:min-h-0" href="#servicos">Serviços</Link>
+          <Link className="flex min-h-8 shrink-0 items-center md:min-h-0" href="#estetica">Estética</Link>
+          <Link className="flex min-h-8 shrink-0 items-center md:min-h-0" href="#trabalhos">Trabalhos</Link>
+          <Link className="flex min-h-8 shrink-0 items-center md:min-h-0" href="#sobre">Sobre</Link>
+          <Link className="flex min-h-8 shrink-0 items-center md:min-h-0" href="#contacto">Contacto</Link>
+          <Link className="flex min-h-8 shrink-0 items-center rounded bg-[#c67b91] px-2.5 text-white md:hidden" href="#marcacao">Marcar horário</Link>
         </nav>
       </div>
     </header>

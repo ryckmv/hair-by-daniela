@@ -9,6 +9,9 @@ const services = [
   "Alisamentos",
   "Penteados",
   "Bridal Hair",
+  "Corte",
+  "Coloração",
+  "Hidratação",
 ];
 
 export default function Booking() {
