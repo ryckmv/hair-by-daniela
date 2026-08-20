@@ -1,4 +1,4 @@
-import { ArrowUpRight, AtSign, Clock3, MapPin } from "lucide-react";
+import { ArrowUpRight, AtSign, CalendarDays, Clock3, MapPin } from "lucide-react";
 
 const instagramUrl = "https://www.instagram.com/hairbydanielasantos/";
 const mapsUrl =
@@ -98,6 +98,7 @@ export default function Contact() {
               rel="noreferrer"
               className="mt-3 inline-flex min-h-11 items-center rounded-md bg-[#c67b91] px-5 py-3 text-[10px] font-semibold uppercase tracking-[0.14em] text-white transition hover:bg-[#b66f84] md:mt-4 md:min-h-0"
             >
+              <CalendarDays aria-hidden="true" size={15} className="mr-2" />
               Marcar horário
             </a>
           </div>

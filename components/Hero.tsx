@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { CalendarDays } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -51,6 +52,7 @@ export default function Hero() {
               href="#marcacao"
               className="inline-flex min-h-12 items-center justify-center rounded-md bg-[#c67b91] px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.12em] text-white transition hover:bg-[#b66f84] md:px-7 md:py-4 md:text-xs md:tracking-[0.14em]"
             >
+              <CalendarDays aria-hidden="true" size={15} className="mr-2" />
               Marcar horário
             </a>
 

@@ -92,6 +92,7 @@ export default function Header() {
           </nav>
 
           <a href="#marcacao" className="rounded-md border border-white/15 bg-[#c67b91] px-6 py-3 text-xs font-semibold uppercase tracking-[0.12em] text-white shadow-[0_6px_18px_rgba(68,33,42,0.22)] transition hover:bg-[#b66f84]">
+            <CalendarDays aria-hidden="true" size={15} className="mr-2" />
             Marcar horário
           </a>
         </div>

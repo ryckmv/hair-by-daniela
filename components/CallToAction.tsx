@@ -1,3 +1,5 @@
+import { CalendarDays } from "lucide-react";
+
 export default function CallToAction() {
   return (
     <section className="bg-[#c97d93] px-4 py-4 md:px-6 md:py-5 lg:py-6">
@@ -42,6 +44,7 @@ export default function CallToAction() {
           href="#contacto"
           className="inline-flex min-h-11 min-w-[170px] items-center justify-center rounded-md bg-white px-5 py-3 text-[10px] font-semibold uppercase tracking-[0.12em] text-[#b96f84] transition hover:bg-[#f8f3f0] md:min-w-[190px] md:px-7 md:py-4 md:text-xs md:tracking-[0.14em]"
         >
+          <CalendarDays aria-hidden="true" size={15} className="mr-2" />
           Marcar horário
         </a>
       </div>
