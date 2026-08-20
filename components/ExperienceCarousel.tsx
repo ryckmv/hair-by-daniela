@@ -10,6 +10,11 @@ const slides = [
     alt: "Daniela Santos com diploma de formação profissional",
     position: "center 35%",
   },
+   {
+    src: "/images/unhas/estetica-equipa.jpeg",
+    alt: "Equipa Hair by Daniela Santos",
+    position: "center 38%",
+  },
   {
     src: "/images/experiencia/daniela-a-trabalhar.jpeg",
     alt: "Daniela Santos a trabalhar em contexto profissional",
@@ -25,11 +30,7 @@ const slides = [
     alt: "Daniela Santos no Portugal Fashion",
     position: "center 42%",
   },
-  {
-    src: "/images/unhas/estetica-equipa.jpeg",
-    alt: "Equipa Hair by Daniela Santos",
-    position: "center 38%",
-  },
+ 
 ];
 
 export default function ExperienceCarousel() {

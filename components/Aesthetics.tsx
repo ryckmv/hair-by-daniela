@@ -1,22 +1,17 @@
 import Image from "next/image";
 
 const aestheticsWorks = [
-  {
-    src: "/images/unhas/estetica-equipa.jpeg",
-    alt: "Equipa Hair by Daniela Santos no salão",
-    className: "col-span-2 row-span-2 md:col-span-7 md:row-span-2",
-    position: "center 28%",
-  },
+  
   {
     src: "/images/unhas/unhas-brancas.png",
     alt: "Unhas brancas com acabamento elegante",
-    className: "md:col-span-5",
+    className: "md:col-span-6",
     position: "center 58%",
   },
   {
     src: "/images/unhas/unhas-bordeaux.png",
     alt: "Unhas em tom bordeaux com detalhe decorativo",
-    className: "md:col-span-5",
+    className: "md:col-span-6",
     position: "center 62%",
   },
   {

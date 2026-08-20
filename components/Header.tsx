@@ -30,12 +30,13 @@ export default function Header() {
             <Link className="transition hover:text-white" href="#contacto">Contacto</Link>
           </nav>
 
-         <a
-  href="#marcacao"
-  className="hidden rounded-md bg-[#c67b91] px-6 py-3 text-xs font-semibold uppercase tracking-[0.12em] text-white transition hover:bg-[#b66f84] md:inline-flex"
->
-  Marcar horário
-</a>
+          <a
+            href="#marcacao"
+            className="inline-flex min-h-9 shrink-0 items-center justify-center rounded-md bg-[#c67b91] px-3 text-[8px] font-semibold uppercase tracking-[0.08em] text-white transition hover:bg-[#b66f84] md:min-h-0 md:px-6 md:py-3 md:text-xs md:tracking-[0.12em]"
+          >
+            <span className="md:hidden">Marcar</span>
+            <span className="hidden md:inline">Marcar horário</span>
+          </a>
         </div>
 
         <nav aria-label="Navegação principal" className="mt-1.5 flex items-center gap-2.5 overflow-x-auto border-t border-white/15 pt-1 text-[8px] font-semibold uppercase tracking-[0.08em] text-white/80 md:mt-4 md:gap-5 md:pt-3 md:text-[10px] md:tracking-[0.12em] lg:hidden">
@@ -44,7 +45,6 @@ export default function Header() {
           <Link className="flex min-h-8 shrink-0 items-center md:min-h-0" href="#trabalhos">Trabalhos</Link>
           <Link className="flex min-h-8 shrink-0 items-center md:min-h-0" href="#sobre">Sobre</Link>
           <Link className="flex min-h-8 shrink-0 items-center md:min-h-0" href="#contacto">Contacto</Link>
-          <Link className="flex min-h-8 shrink-0 items-center rounded bg-[#c67b91] px-2.5 text-white md:hidden" href="#marcacao">Marcar horário</Link>
         </nav>
       </div>
     </header>
